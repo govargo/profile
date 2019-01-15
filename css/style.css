@@ -1,0 +1,79 @@
+#topNavbar {
+  background-color: #D9E5FF !important;
+}
+
+.intro {
+  background-image: url('../img/header.jpg');
+  width: auto;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.text-light {
+  color: azure !important;
+  font-weight: 900 !important;
+  font-size: 4.0rem !important;
+}
+
+.theme {
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.sectionHeader {
+  padding-bottom: 4%;
+}
+
+.card {
+  margin-bottom: 2% !important;
+}
+
+.card-body {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+#other-card {
+  margin: auto !important;
+  padding: 0% !important;
+}
+
+#other-card-body {
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+}
+
+#certificationTable {
+  word-break: keep-all;
+  word-wrap: normal;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.list-inline-item {
+  font-size: 5rem;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+#contacts {
+  padding-top: 2%;
+  background-image: url('../img/footer.jpg');
+  width: auto;
+}
+
+#footerLine {
+  margin-top: 5% !important;
+}
+
+.socialIcon {
+  color: azure;
+  background-color: black;
+  border-radius: 10%;
+  outline: 0;
+  transition: all .3s;
+  line-height: 80px;
+  font-size: 70px;
+}
