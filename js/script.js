@@ -107,3 +107,18 @@ function createCertification() {
     cert.append(cardTag);
   }
 }
+
+/**
+* アナリティクスでアウトバウンド リンクのクリックをトラッキングする関数。
+* この関数では有効な URL 文字列を引数として受け取り、その URL 文字列を
+* イベントのラベルとして使用する。transport メソッドを 'beacon' に設定すると
+* 対応ブラウザでは 'navigator.sendBeacon' を使ってヒットが送信される。
+*/
+function trackOutboundLink(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+  });
+}
