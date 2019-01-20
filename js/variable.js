@@ -68,10 +68,14 @@ var nifi         = { "title": "Apache/NiFi",     "experiment": "1年",     "prof
 var pipeline     = { "title": "CI Pipeline",     "experiment": "1年",     "proficiency": "○"    }
 var gas          = { "title": "GoogleAppScript", "experiment": "2年",     "proficiency": "○"    }
 var swagger      = { "title": "Swagger",         "experiment": "1年",     "proficiency": "△"    }
+var ga           = { "title": "GoogleAnalytics", "experiment": "1年",     "proficiency": "○"    }
+var junit        = { "title": "JUnit",           "experiment": "1年",     "proficiency": "○"    }
+var mybatis      = { "title": "MyBatis",         "experiment": "2年",     "proficiency": "○"    }
+var wiremock     = { "title": "WireMock",        "experiment": "1年",     "proficiency": "△"    }
 
 var other = [readmine, svn, git, gitlab, jenkins, sonarqube, selenium, seleniumGrid, zalenium,
              geb, fluent, elasticsearch, kibana, prometheus, grafana, weavescope, zipkin, helm,
-             nifi, pipeline, gas, swagger]
+             nifi, pipeline, gas, swagger, ga, junit, mybatis, wiremock]
 
 /** Certification */
 var acounting    = { "title": "日本商工会議所簿記検定2級",                       "date": "2011年03月" }
