@@ -72,6 +72,8 @@ var ga           = { "title": "GoogleAnalytics", "experiment": "1年",     "prof
 var junit        = { "title": "JUnit",           "experiment": "1年",     "proficiency": "○"    }
 var mybatis      = { "title": "MyBatis",         "experiment": "2年",     "proficiency": "○"    }
 var wiremock     = { "title": "WireMock",        "experiment": "1年",     "proficiency": "△"    }
+var maven        = { "title": "Maven",           "experiment": "3年",     "proficiency": "○"    }
+var gradle       = { "title": "Gradle",          "experiment": "2年",     "proficiency": "○"    }
 
 var other = [readmine, svn, git, gitlab, jenkins, sonarqube, selenium, seleniumGrid, zalenium,
              geb, fluent, elasticsearch, kibana, prometheus, grafana, weavescope, zipkin, helm,
